@@ -1,0 +1,61 @@
+
+/* styles.css - تصميم بلون أسود وأحمر مثل Kali */
+
+body {
+    background-color: #0d0d0d;
+    color: #e60000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #1a1a1a;
+    color: #ff1a1a;
+    text-align: center;
+    padding: 1em 0;
+    border-bottom: 2px solid #e60000;
+}
+
+nav {
+    background-color: #1a1a1a;
+    text-align: center;
+    padding: 1em;
+    border-bottom: 1px solid #800000;
+}
+
+nav a {
+    color: #e60000;
+    margin: 0 1em;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff4d4d;
+    text-shadow: 0 0 5px #ff1a1a;
+}
+
+main {
+    padding: 2em;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+footer {
+    margin-top: 3em;
+    border-top: 1px solid #800000;
+}
+
+@media (max-width: 768px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+    nav a {
+        margin: 0.5em 0;
+    }
+}
